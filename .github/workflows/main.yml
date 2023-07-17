@@ -1,4 +1,4 @@
-name: Java CI/CD
+name: Verademo Java Build Action
 
 on:
   push:
@@ -13,5 +13,5 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: '11'
-      - run: javac Main.java
-      - run: java Main
+      - run: javac Verademo.java
+      - run: java Verademo
